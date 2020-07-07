@@ -14,8 +14,8 @@ header {
 }
 h1{
 	font-family: 'Holtwood One SC', serif;
-	font-size: 30px;
-	display: flex;
+    font-size: 30px;
+    display: flex;
     padding-right:350px ;
 }
 .logo {
@@ -23,7 +23,8 @@ h1{
 	padding-top: 4px;
 }
 
-/*  formulario */
+
+/*  formulario DE REGISTRO */
 main{
 	display: flex;
 	flex-wrap: wrap;
@@ -37,38 +38,32 @@ input {
 	border-radius: 20px;
 	margin-bottom: 20px;
 	border-radius: 5px;
-	height: 60px;
+	height: 40px;
     width: 300px;
     border: none;
 }
-.login{
+.registro{
     padding-left: 0px;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 60px;
     
 }
 .campo{
     border-radius: 50px;
 }
-#logintitulo{
-    padding-left: 40px;
+#registrotitulo{
+    padding-left: 55px;
     color: white;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
-.login > a{
-	display: flex;
-	justify-content: center;
-	cursor: pointer;
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	text-decoration: none;
+label{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: white;
 }
-.checkbox{
-	display: flex;
-	padding-left: 10px;
-	color: white;
-}
+
 /*  botão */
 .boton{
 	display: flex;
